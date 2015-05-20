@@ -1,0 +1,46 @@
+{
+  "name": "rowlow.resources.kickstarter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rowlow/rowlow.resources.kickstarter",
+  "authors": [
+    "Roland Lösslein <info@weaintplastic.com>"
+  ],
+  "description": "A package to startup ROW LOW projects easy like pie",
+  "main": "index.html",
+  "keywords": [
+    "startup",
+    "rowlow",
+    "kickstarter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "respond": "~1.4.2",
+    "normalize-scss": "~3.0.3",
+    "rowlow.layout.layer-group": "~0.1.0",
+    "rowlow.settings.default": "~0.1.2",
+    "rowlow.utils.colors": "~0.1.0",
+    "rowlow.utils.breakpoints": "~0.1.0",
+    "rowlow.utils.clearfix": "~0.1.0",
+    "rowlow.layout.grid": "~0.2.0",
+    "rowlow.type.text-align": "~0.1.0",
+    "rowlow.utils.visibility": "~0.1.0",
+    "rowlow.type.text-decoration": "~0.1.1",
+    "rowlow.type.text-transform": "~0.2.0",
+    "rowlow.type.text-spacing": "~0.1.0",
+    "rowlow.layout.vertical-align": "~0.1.0",
+    "rowlow.layout.horizontal-align": "~0.1.0",
+    "rowlow.motion.easing": "~0.1.0",
+    "rowlow.type.font-face": "~0.1.0",
+    "rowlow.layout.ratio-container": "~0.1.0",
+    "rowlow.media.image": "~0.1.0",
+    "jquery": "1.*",
+    "modernizr": "~2.8.3"
+  }
+}
