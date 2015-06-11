@@ -1,6 +1,6 @@
 {
   "name": "rowlow.resources.kickstarter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/rowlow/rowlow.resources.kickstarter",
   "authors": [
     "Roland Lösslein <info@weaintplastic.com>"
@@ -36,7 +36,7 @@
     "rowlow.layout.horizontal-align": "~0.1.0",
     "rowlow.motion.easing": "~0.1.0",
     "rowlow.type.font-face": "~0.1.0",
-    "rowlow.layout.ratio-container": "~0.1.0",
+    "rowlow.layout.ratio-container": "~0.2.0",
     "rowlow.media.image": "~0.1.0",
     "normalize.css": "~3.0.3"
   }
