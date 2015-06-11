@@ -32,6 +32,7 @@ var watchPaths		= {
 gulp.task('sass', function () {
 	gulp
 		.src(srcPath + 'assets/sass/styles.scss')
+		.pipe(include())
 		.pipe(sass())
 		.on("error", notify.onError({ message: "Error: <%= error.message %>", title: "Error running sass task" }))
 		.pipe(autoprefixer({ browsers: ['> 1%', 'last 2 versions'], cascade: false }))
