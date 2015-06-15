@@ -1,6 +1,6 @@
 {
   "name": "rowlow.resources.kickstarter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A package to startup ROW LOW projects easy like pie",
   "main": "index.html",
   "dependencies": {
