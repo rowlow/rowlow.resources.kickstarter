@@ -53,7 +53,7 @@ gulp.task('scripts', function(){
 		.pipe(uglify())
 		.on("error", notify.onError({ message: "Error: <%= error.message %>", title: "Error running scripts task" }))
 		.pipe(rename({ suffix: '.min' }))
-		.pipe(sourcemaps.write())
+		.pipe(sourcemaps.write('maps'))
 		.pipe(gulp.dest(distPath + 'assets/js'));
 });
 
