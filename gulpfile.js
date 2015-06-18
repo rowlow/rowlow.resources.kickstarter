@@ -1,28 +1,27 @@
-var gulp    		= require('gulp'); 				// Gulp
+var gulp    		= require('gulp'); 			
 var fs 				= require('fs');
 var es 				= require('event-stream');
 var path 			= require('path');
-var uglify  		= require('gulp-uglify'); 		// Plugin for uglifing javascript
-var sass            = require('gulp-sass'); 		// Package to compile scss files
-var cssmin 			= require('gulp-minify-css'); 	// Plugin to minfy css
-var rename			= require('gulp-rename'); 		// Plugin for renaming files
-var autoprefixer   	= require('gulp-autoprefixer'); // Plugin to vendor prefix css
-var include 		= require('gulp-include'); 		// Plugin to include files into others
-var notify 			= require("gulp-notify"); 		// Plugin to send notifications to the operating system
-var imagemin 		= require("gulp-imagemin"); 	// Plugin for minifying jpg, png, gif and svg
-var livereload 		= require('gulp-livereload'); 	// Plugin for enable lievreload for your browser
-var sourcemaps 		= require('gulp-sourcemaps'); 	// Plugin to enable sourcemaps for scripts
+var uglify  		= require('gulp-uglify'); 
+var sass            = require('gulp-sass');
+var cssmin 			= require('gulp-minify-css');
+var rename			= require('gulp-rename'); 
+var autoprefixer   	= require('gulp-autoprefixer');
+var include 		= require('gulp-include');
+var notify 			= require("gulp-notify");
+var imagemin 		= require("gulp-imagemin"); 
+var livereload 		= require('gulp-livereload');
+var sourcemaps 		= require('gulp-sourcemaps');
 
 
 var srcPath 		= 'src/';				// Path to the source files
 var distPath 		= 'dist/';				// Path to the distribution files
-var componentsPath  = 'bower_components/';
 
 // Paths that gulp should watch
 var watchPaths		= {
 	scripts: 	[srcPath+'assets/js/*.js', srcPath+'assets/js/**/*.js'],
 	images: 	[srcPath+'assets/img/**'],
-	sass: 		[srcPath+'assets/sass/*.scss', srcPath+'assets/sass/**/*.scss', '../src/*.scss', '../src/**/*.scss'],
+	sass: 		[srcPath+'assets/sass/*.scss', srcPath+'assets/sass/**/*.scss'],
 	fonts:      [srcPath+'assets/fonts/**'],
 	html:      	[srcPath+'**/*.html', srcPath+'**/*.php']
 };
